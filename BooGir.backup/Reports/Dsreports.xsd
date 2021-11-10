@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Dsreports" targetNamespace="http://tempuri.org/Dsreports.xsd" xmlns:mstns="http://tempuri.org/Dsreports.xsd" xmlns="http://tempuri.org/Dsreports.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="db_boorgirConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="db_boorgirConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BooGir.Properties.Settings.GlobalReference.Default.db_boorgirConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PRODUCTOSTableAdapter" GeneratorDataComponentClassName="PRODUCTOSTableAdapter" Name="PRODUCTOS" UserDataComponentName="PRODUCTOSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_boorgirConnectionString (Settings)" DbObjectName="db_boorgir.dbo.PRODUCTOS" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select nom_producto, sum(d.cantidad)'cant_unidades',sum(cantidad*d.precio)'importe_total'
+from facturas f join DETALLES_FACTURAS d 
+on f.id_factura=d.id_factura
+join PRODUCTOS p on p.id_producto=d.id_producto
+group by nom_producto
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="nom_producto" DataSetColumn="nom_producto" />
+              <Mapping SourceColumn="cant_unidades" DataSetColumn="cant_unidades" />
+              <Mapping SourceColumn="importe_total" DataSetColumn="importe_total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Dsreports" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Dsreports" msprop:Generator_UserDSName="Dsreports">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PRODUCTOS" msprop:Generator_TableClassName="PRODUCTOSDataTable" msprop:Generator_TableVarName="tablePRODUCTOS" msprop:Generator_RowChangedName="PRODUCTOSRowChanged" msprop:Generator_TablePropName="PRODUCTOS" msprop:Generator_RowDeletingName="PRODUCTOSRowDeleting" msprop:Generator_RowChangingName="PRODUCTOSRowChanging" msprop:Generator_RowEvHandlerName="PRODUCTOSRowChangeEventHandler" msprop:Generator_RowDeletedName="PRODUCTOSRowDeleted" msprop:Generator_RowClassName="PRODUCTOSRow" msprop:Generator_UserTableName="PRODUCTOS" msprop:Generator_RowEvArgName="PRODUCTOSRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom_producto" msprop:Generator_ColumnVarNameInTable="columnnom_producto" msprop:Generator_ColumnPropNameInRow="nom_producto" msprop:Generator_ColumnPropNameInTable="nom_productoColumn" msprop:Generator_UserColumnName="nom_producto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cant_unidades" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncant_unidades" msprop:Generator_ColumnPropNameInRow="cant_unidades" msprop:Generator_ColumnPropNameInTable="cant_unidadesColumn" msprop:Generator_UserColumnName="cant_unidades" type="xs:int" minOccurs="0" />
+              <xs:element name="importe_total" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnimporte_total" msprop:Generator_ColumnPropNameInRow="importe_total" msprop:Generator_ColumnPropNameInTable="importe_totalColumn" msprop:Generator_UserColumnName="importe_total" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Facturacion" msprop:Generator_TableClassName="FacturacionDataTable" msprop:Generator_TableVarName="tableFacturacion" msprop:Generator_TablePropName="Facturacion" msprop:Generator_RowDeletingName="FacturacionRowDeleting" msprop:Generator_RowChangingName="FacturacionRowChanging" msprop:Generator_RowEvHandlerName="FacturacionRowChangeEventHandler" msprop:Generator_RowDeletedName="FacturacionRowDeleted" msprop:Generator_UserTableName="Facturacion" msprop:Generator_RowChangedName="FacturacionRowChanged" msprop:Generator_RowEvArgName="FacturacionRowChangeEvent" msprop:Generator_RowClassName="FacturacionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Mes" msprop:Generator_ColumnVarNameInTable="columnMes" msprop:Generator_ColumnPropNameInRow="Mes" msprop:Generator_ColumnPropNameInTable="MesColumn" msprop:Generator_UserColumnName="Mes" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Promedio" msprop:Generator_ColumnVarNameInTable="columnPromedio" msprop:Generator_ColumnPropNameInRow="Promedio" msprop:Generator_ColumnPropNameInTable="PromedioColumn" msprop:Generator_UserColumnName="Promedio" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Vendedores" msprop:Generator_TableClassName="VendedoresDataTable" msprop:Generator_TableVarName="tableVendedores" msprop:Generator_TablePropName="Vendedores" msprop:Generator_RowDeletingName="VendedoresRowDeleting" msprop:Generator_RowChangingName="VendedoresRowChanging" msprop:Generator_RowEvHandlerName="VendedoresRowChangeEventHandler" msprop:Generator_RowDeletedName="VendedoresRowDeleted" msprop:Generator_UserTableName="Vendedores" msprop:Generator_RowChangedName="VendedoresRowChanged" msprop:Generator_RowEvArgName="VendedoresRowChangeEvent" msprop:Generator_RowClassName="VendedoresRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Vendedor" msprop:Generator_ColumnVarNameInTable="columnVendedor" msprop:Generator_ColumnPropNameInRow="Vendedor" msprop:Generator_ColumnPropNameInTable="VendedorColumn" msprop:Generator_UserColumnName="Vendedor" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_UserColumnName="Cantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_UserColumnName="Total" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

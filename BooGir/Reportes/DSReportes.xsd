@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSReportes" targetNamespace="http://tempuri.org/DSReportes.xsd" xmlns:mstns="http://tempuri.org/DSReportes.xsd" xmlns="http://tempuri.org/DSReportes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="db_boorgirConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="db_boorgirConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BooGir.Properties.Settings.GlobalReference.Default.db_boorgirConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="PRODUCTOSTableAdapter" GeneratorDataComponentClassName="PRODUCTOSTableAdapter" Name="PRODUCTOS" UserDataComponentName="PRODUCTOSTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_boorgirConnectionString (Settings)" DbObjectName="db_boorgir.dbo.PRODUCTOS" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select nom_producto, sum(d.cantidad)'cant_unidades',sum(cantidad*d.precio)'importe_total'
+from facturas f join DETALLES_FACTURAS d 
+on f.id_factura=d.id_factura
+join PRODUCTOS p on p.id_producto=d.id_producto
+group by nom_producto
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="nom_producto" DataSetColumn="nom_producto" />
+              <Mapping SourceColumn="cant_unidades" DataSetColumn="cant_unidades" />
+              <Mapping SourceColumn="importe_total" DataSetColumn="importe_total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VENDEDORESTableAdapter" GeneratorDataComponentClassName="VENDEDORESTableAdapter" Name="VENDEDORES" UserDataComponentName="VENDEDORESTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_boorgirConnectionString (Settings)" DbObjectName="db_boorgir.dbo.FACTURAS" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>select f.id_vendedor, UPPER( apellido) 'vendedor',count(f.id_factura)'cant_facturas',
+SUM (cantidad*precio )'total'
+from facturas f join DETALLES_FACTURAS d 
+on f.id_factura=d.id_factura
+join vendedores v on v.id_vendedor=f.id_vendedor
+group by f.id_vendedor, apellido
+</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id_vendedor" DataSetColumn="id_vendedor" />
+              <Mapping SourceColumn="vendedor" DataSetColumn="vendedor" />
+              <Mapping SourceColumn="cant_facturas" DataSetColumn="cant_facturas" />
+              <Mapping SourceColumn="total" DataSetColumn="total" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSReportes" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSReportes" msprop:Generator_UserDSName="DSReportes">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PRODUCTOS" msprop:Generator_TableClassName="PRODUCTOSDataTable" msprop:Generator_TableVarName="tablePRODUCTOS" msprop:Generator_TablePropName="PRODUCTOS" msprop:Generator_RowDeletingName="PRODUCTOSRowDeleting" msprop:Generator_RowChangingName="PRODUCTOSRowChanging" msprop:Generator_RowEvHandlerName="PRODUCTOSRowChangeEventHandler" msprop:Generator_RowDeletedName="PRODUCTOSRowDeleted" msprop:Generator_UserTableName="PRODUCTOS" msprop:Generator_RowChangedName="PRODUCTOSRowChanged" msprop:Generator_RowEvArgName="PRODUCTOSRowChangeEvent" msprop:Generator_RowClassName="PRODUCTOSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom_producto" msprop:Generator_ColumnVarNameInTable="columnnom_producto" msprop:Generator_ColumnPropNameInRow="nom_producto" msprop:Generator_ColumnPropNameInTable="nom_productoColumn" msprop:Generator_UserColumnName="nom_producto" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cant_unidades" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncant_unidades" msprop:Generator_ColumnPropNameInRow="cant_unidades" msprop:Generator_ColumnPropNameInTable="cant_unidadesColumn" msprop:Generator_UserColumnName="cant_unidades" type="xs:int" minOccurs="0" />
+              <xs:element name="importe_total" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnimporte_total" msprop:Generator_ColumnPropNameInRow="importe_total" msprop:Generator_ColumnPropNameInTable="importe_totalColumn" msprop:Generator_UserColumnName="importe_total" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VENDEDORES" msprop:Generator_TableClassName="VENDEDORESDataTable" msprop:Generator_TableVarName="tableVENDEDORES" msprop:Generator_TablePropName="VENDEDORES" msprop:Generator_RowDeletingName="VENDEDORESRowDeleting" msprop:Generator_RowChangingName="VENDEDORESRowChanging" msprop:Generator_RowEvHandlerName="VENDEDORESRowChangeEventHandler" msprop:Generator_RowDeletedName="VENDEDORESRowDeleted" msprop:Generator_UserTableName="VENDEDORES" msprop:Generator_RowChangedName="VENDEDORESRowChanged" msprop:Generator_RowEvArgName="VENDEDORESRowChangeEvent" msprop:Generator_RowClassName="VENDEDORESRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id_vendedor" msprop:Generator_ColumnVarNameInTable="columnid_vendedor" msprop:Generator_ColumnPropNameInRow="id_vendedor" msprop:Generator_ColumnPropNameInTable="id_vendedorColumn" msprop:Generator_UserColumnName="id_vendedor" type="xs:int" minOccurs="0" />
+              <xs:element name="vendedor" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnvendedor" msprop:Generator_ColumnPropNameInRow="vendedor" msprop:Generator_ColumnPropNameInTable="vendedorColumn" msprop:Generator_UserColumnName="vendedor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="cant_facturas" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncant_facturas" msprop:Generator_ColumnPropNameInRow="cant_facturas" msprop:Generator_ColumnPropNameInTable="cant_facturasColumn" msprop:Generator_UserColumnName="cant_facturas" type="xs:int" minOccurs="0" />
+              <xs:element name="total" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_UserColumnName="total" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FACTURACION" msprop:Generator_TableClassName="FACTURACIONDataTable" msprop:Generator_TableVarName="tableFACTURACION" msprop:Generator_TablePropName="FACTURACION" msprop:Generator_RowDeletingName="FACTURACIONRowDeleting" msprop:Generator_RowChangingName="FACTURACIONRowChanging" msprop:Generator_RowEvHandlerName="FACTURACIONRowChangeEventHandler" msprop:Generator_RowDeletedName="FACTURACIONRowDeleted" msprop:Generator_UserTableName="FACTURACION" msprop:Generator_RowChangedName="FACTURACIONRowChanged" msprop:Generator_RowEvArgName="FACTURACIONRowChangeEvent" msprop:Generator_RowClassName="FACTURACIONRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MES" msprop:Generator_ColumnVarNameInTable="columnMES" msprop:Generator_ColumnPropNameInRow="MES" msprop:Generator_ColumnPropNameInTable="MESColumn" msprop:Generator_UserColumnName="MES" type="xs:string" minOccurs="0" />
+              <xs:element name="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" msprop:Generator_UserColumnName="TOTAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PROMEDIO_POR_FACTURA" msprop:Generator_ColumnVarNameInTable="columnPROMEDIO_POR_FACTURA" msprop:Generator_ColumnPropNameInRow="PROMEDIO_POR_FACTURA" msprop:Generator_ColumnPropNameInTable="PROMEDIO_POR_FACTURAColumn" msprop:Generator_UserColumnName="PROMEDIO_POR_FACTURA" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

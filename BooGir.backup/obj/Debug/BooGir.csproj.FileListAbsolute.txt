@@ -1,0 +1,117 @@
+C:\Users\mdcac\source\repos\BooGir\BooGir\bin\Debug\BooGir.exe.config
+C:\Users\mdcac\source\repos\BooGir\BooGir\bin\Debug\BooGir.exe
+C:\Users\mdcac\source\repos\BooGir\BooGir\bin\Debug\BooGir.pdb
+C:\Users\mdcac\source\repos\BooGir\BooGir\obj\Debug\BooGir.csproj.AssemblyReference.cache
+C:\Users\mdcac\source\repos\BooGir\BooGir\obj\Debug\BooGir.Properties.Resources.resources
+C:\Users\mdcac\source\repos\BooGir\BooGir\obj\Debug\BooGir.csproj.GenerateResource.cache
+C:\Users\mdcac\source\repos\BooGir\BooGir\obj\Debug\BooGir.csproj.CoreCompileInputs.cache
+C:\Users\mdcac\source\repos\BooGir\BooGir\obj\Debug\BooGir.exe
+C:\Users\mdcac\source\repos\BooGir\BooGir\obj\Debug\BooGir.pdb
+C:\Users\mdcac\source\repos\BooGir\BooGir\obj\Debug\BooGir.frmPrincipal.resources
+C:\Users\mdcac\source\repos\BooGir\BooGir\obj\Debug\BooGir.Forms.Facturar.resources
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\bin\Debug\BooGir.exe.config
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\bin\Debug\BooGir.exe
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\bin\Debug\BooGir.pdb
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.csprojAssemblyReference.cache
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.frmPrincipal.resources
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.Properties.Resources.resources
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.csproj.GenerateResource.cache
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.exe
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.pdb
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmConsultarClientes.resources
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmNuevaFactura.resources
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmConsultarFacturas.resources
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmConsultarProductos.resources
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmLogin.resources
+C:\Users\Francisco\Desktop\UTN\2DO CUATRIMESTRE\PROGRAMACION II\TP INTEGRADOR\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmRegistro.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\BooGir.exe.config
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\BooGir.exe
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\BooGir.pdb
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.csproj.AssemblyReference.cache
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmConsultarProductos.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmConsultarClientes.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmLogin.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmNuevaFactura.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.frmPrincipal.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmConsultarFacturas.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmRegistro.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Properties.Resources.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.csproj.GenerateResource.cache
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.csproj.CoreCompileInputs.cache
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.exe
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.pdb
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmConsultarDetalles.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Reports.FacturacionP.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Reports.FrmReportes.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\RdlCompile.cache
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\RdlCompile.compiled
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\EnvDTE.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\stdole.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\Microsoft.MSXML.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\bin\Debug\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Forms.FrmModificarCliente.resources
+C:\Users\mdcac\Desktop\BooGir\BooGir\obj\Debug\BooGir.Reports.FormVendedores.resources

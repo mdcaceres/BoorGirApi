@@ -1,0 +1,72 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>BooGir.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="Reports\Dsreports.cs">
+      <DependentUpon>Dsreports.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reports\Facturacion.rdlc" />
+    <EmbeddedResource Include="Reports\FacturacionProductos.rdlc" />
+    <EmbeddedResource Include="Reports\Vendedores.rdlc" />
+    <EmbeddedResource Include="Reports\VendedoresFinal.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Reports\Dsreports.xsc">
+      <DependentUpon>Dsreports.xsd</DependentUpon>
+    </None>
+    <None Update="Reports\Dsreports.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dsreports.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Reports\Dsreports.xss">
+      <DependentUpon>Dsreports.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bill %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save-money %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check %281%29.png" />
+    <None Include="Resources\check %281%291.png" />
+    <None Include="Resources\filter %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryBoorGir\LibraryBoorGir.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="5.15.3" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.252501">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.SqlServer.Types" Version="14.0.1016.290" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="5.0.2" />
+    <PackageReference Include="Microsoft.ReportingServices.ReportViewerControl.Winforms" Version="150.1484.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Reportes\DSReportes.cs" />
+    <Compile Remove="Reportes\DSReportes.Designer.cs" />
+    <Compile Remove="Reportes\FacturacionP.cs" />
+    <Compile Remove="Reportes\FacturacionP.Designer.cs" />
+    <Compile Remove="Reportes\FacturacionV.cs" />
+    <Compile Remove="Reportes\FacturacionV.Designer.cs" />
+    <Compile Remove="Reportes\FrmReportes.cs" />
+    <Compile Remove="Reportes\FrmReportes.Designer.cs" />
+    <EmbeddedResource Remove="Reportes\FacturacionP.resx" />
+    <EmbeddedResource Remove="Reportes\FacturacionV.resx" />
+    <EmbeddedResource Remove="Reportes\FrmReportes.resx" />
+  </ItemGroup>
+</Project>

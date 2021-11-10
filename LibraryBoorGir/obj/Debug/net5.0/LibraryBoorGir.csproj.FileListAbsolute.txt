@@ -1,0 +1,12 @@
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\bin\Debug\net5.0\LibraryBoorGir.deps.json
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\bin\Debug\net5.0\LibraryBoorGir.dll
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\bin\Debug\net5.0\ref\LibraryBoorGir.dll
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\bin\Debug\net5.0\LibraryBoorGir.pdb
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\obj\Debug\net5.0\LibraryBoorGir.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\obj\Debug\net5.0\LibraryBoorGir.AssemblyInfoInputs.cache
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\obj\Debug\net5.0\LibraryBoorGir.AssemblyInfo.cs
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\obj\Debug\net5.0\LibraryBoorGir.csproj.CoreCompileInputs.cache
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\obj\Debug\net5.0\LibraryBoorGir.dll
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\obj\Debug\net5.0\ref\LibraryBoorGir.dll
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\obj\Debug\net5.0\LibraryBoorGir.pdb
+C:\Users\mdcac\Desktop\BooGir\LibraryBoorGir\obj\Debug\net5.0\LibraryBoorGir.csproj.AssemblyReference.cache
